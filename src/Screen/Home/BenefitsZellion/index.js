@@ -5,7 +5,7 @@ import "./index.css";
 
 const BenefitsZillion = () => {
   return (
-    <div style={{ backgroundColor: "rgb(14, 14, 22)" }} id='benefits'>
+    <div style={{ backgroundColor: "rgb(14, 14, 22)" }} id="benefits">
       <h1
         style={{
           textAlign: "center",
@@ -14,113 +14,80 @@ const BenefitsZillion = () => {
           fontFamily: "Times New Roman, Times, serif",
         }}
       >
-        Benefits Of <br></br>Zillion Anchor Xo
+        Benefits Of ZAX
       </h1>
       <Container>
         <Grid container className="benefits_zillion">
           <Grid item lg={4} md={5} sm={6.8} xs={12} className="benefits_img">
             <img src={img11} />
             <p
-              style={{
-                color: "white",
-                marginTop: "-22%",
-                padding: "15px",
-                marginLeft: "3%",
-              }}
+            id='benefits_text'
             >
-              There are many variations of passages of Lorem 
+              ZAX prevents drops in exchange & improves transaction efficiency.
             </p>
           </Grid>
 
           <Grid item lg={4} md={5} sm={6.8} xs={12} className="benefits_img">
             <img src={img11} />
             <p
-              style={{
-                color: "white",
-                marginTop: "-22%",
-                padding: "15px",
-                marginLeft: "3%",
-              }}
+                   id='benefits_text'
             >
-              There are many variations of passages of Lorem
+              ZAX enables building relevant ecosystem even for non-decentralized
+              products.
             </p>
           </Grid>
 
           <Grid item lg={4} md={5} sm={6.8} xs={12} className="benefits_img">
             <img src={img11} />
             <p
-              style={{
-                color: "white",
-                marginTop: "-22%",
-                padding: "15px",
-                marginLeft: "12%",
-              }}
+                id='benefits_text'
             >
-              There are many variations of passages of Lorem 
+              ZAX rewards loyalty points in online stores for bonuses, upgrades,
+              and discounts.
             </p>
           </Grid>
 
           <Grid item lg={4} md={5} sm={6.8} xs={12} className="benefits_img">
             <img src={img11} />
             <p
-              style={{
-                color: "white",
-                marginTop: "-22%",
-                padding: "15px",
-                marginLeft: "12%",
-              }}
+                  id='benefits_text'
             >
-              There are many variations of passages of Lorem 
+              As ZAX popularity rises, its benefits become more profitable.
             </p>
           </Grid>
 
           <Grid item lg={4} md={5} sm={6.8} xs={12} className="benefits_img">
             <img src={img11} />
             <p
-              style={{
-                color: "white",
-                marginTop: "-22%",
-                padding: "15px",
-                marginLeft: "12%",
-              }}
+                  id='benefits_text'
             >
-              There are many variations of passages of Lorem 
+              ZAX is easily adopted and utilized in any sector as per the
+              business requirement.
             </p>
           </Grid>
 
           <Grid item lg={4} md={5} sm={6.8} xs={12} className="benefits_img">
             <img src={img11} />
             <p
-              style={{
-                color: "white",
-                marginTop: "-22%",
-                padding: "15px",
-                marginLeft: "12%",
-              }}
+                   id='benefits_text'
             >
-              There are many variations of passages of Lorem 
+              ZAX is already being used in top industries such as automobile,
+              food, and hospitality.
             </p>
           </Grid>
 
-          <Grid item lg={4} md={5} sm={6.8} xs={12} className="benefits_img">
+          <Grid item lg={4} md={5} sm={6.8} xs={12} className="benefits_img" style={{marginBottom:'40px'}}>
             <img src={img11} />
             <p
-              style={{
-                color: "white",
-                marginTop: "-22%",
-                padding: "15px",
-                marginLeft: "12%",
-                marginBottom: "50px",
-              }}
+                  id='benefits_text'
             >
-              There are many variations of passages of Lorem
+              ZAX's utility token design increases liquidity provides
+              reflections to all holders.
             </p>
           </Grid>
         </Grid>
       </Container>
       <div style={{ borderBottom: "1px solid white" }}></div>
-
-
     </div>
   );
 };

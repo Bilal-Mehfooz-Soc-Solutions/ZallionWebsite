@@ -23,7 +23,7 @@ const Team = () => {
       </h1>
       <Container>
         <Grid container className="team_main" style={{paddingBottom:'30px'}}>
-          <Grid item lg={2.5} md={3.8} sm={4.8} xs={11} className="team_img">
+          <Grid item lg={2.5} md={3.8} sm={4.8} xs={12} className="team_img">
             <img src={teamimg3} alt="" />
             <h2 style={{ color: "white", textAlign: "center" }}>
               Mr.Anil Yadav
@@ -38,7 +38,7 @@ const Team = () => {
               <b>CEO</b>
             </h3>
           </Grid>
-          <Grid item lg={2.5} md={3.8} sm={4.8} xs={11} className="team_img">
+          <Grid item lg={2.5} md={3.8} sm={4.8} xs={12} className="team_img">
             <img src={teamimg2} alt="" />
             <h2 style={{ color: "white", textAlign: "center" }}>
               Mr.Mintu Yadav

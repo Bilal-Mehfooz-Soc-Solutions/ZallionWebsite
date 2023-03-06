@@ -7,7 +7,7 @@ import "./index.css";
 const WatchOur = () => {
   return (
     <div className="bg_three" style={{ backgroundColor: "rgb(14, 14, 22)" }}>
-      <h1
+      {/* <h1
         style={{
           textAlign: "center",
           color: "white",
@@ -20,15 +20,29 @@ const WatchOur = () => {
         </b>
       </h1>
       <Container>
-        <Grid container style={{justifyContent:'center'}}>
-          <Grid item lg={5.3} md={5.6} sm={6} xs={12} style={{marginTop:'40px'}}> 
-          <iframe style={{width:'100%'}} height="315" src="https://www.youtube.com/embed/FZZcZ7tORnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+        <Grid container style={{ justifyContent: "center" }}>
+          <Grid
+            item
+            lg={5.3}
+            md={5.6}
+            sm={6}
+            xs={12}
+            style={{ marginTop: "40px" }}
+          >
+            <iframe
+              style={{ width: "100%" }}
+              height="315"
+              src="https://www.youtube.com/embed/FZZcZ7tORnc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
           </Grid>
         </Grid>
-      </Container>
+      </Container> */}
       <Container>
-        <Grid container style={{ marginTop: "50px" }}>
+        <Grid container style={{ paddingTop: "60px" }}>
           <Grid item lg={5} md={5} sm={6} xs={12}>
             <h3
               style={{
@@ -36,24 +50,15 @@ const WatchOur = () => {
                 fontFamily: "Times New Roman, Times, serif",
               }}
             >
-              About Zax As A Utility Token
+              ZAX: The Ultimate Utility Token
             </h3>
             <br></br>
             <p style={{ color: "white" }}>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page
+            ZAX is designed to provide fast and secure transactions. 
             </p>
-            <br></br>
-            <p style={{ color: "white" }}>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable. If you are going to use a passage of Lorem
-              Ipsum, you need to be sure there isn't anything embarrassing
-              hidden in the middle of text. All the Lorem Ipsum generators on
-              the Internet tend to repeat predefined chunks as necessary, making
-              this the first true generator on the Internet. It uses a
-              dictionary of over 200 Latin words, combined
+      
+            <p style={{ color: "white",textAlign:'justify'}}>
+            As a utility token, it rewards its users with reflections and liquidity pool benefits as the transaction volume increases. The liquidity pool ensures that a percentage of every transaction is added to the pool, while reflections distribute a portion of that percentage among all ZAX token holders. This creates a mutually beneficial ecosystem for everyone involved, making ZAX an ideal choice for anyone looking for a reliable token.<br></br>One of the significant benefits of ZAX is that it helps in preventing the drops in exchange and makes every transaction speedy and more efficient. ZAX tokens can be used to build a relevant ecosystem even when the products and services are not decentralized in nature. Moreover, ZAX tokens give some loyalty points in online stores, which can qualify you for bonuses, upgrades, discounts, and much more easily!
             </p>
 
             <Button
@@ -68,7 +73,7 @@ const WatchOur = () => {
           </Grid>
           <Grid item lg={1} md={1} sm={1}></Grid>
           <Grid item lg={5} md={5} sm={5} xs={12}>
-            <img src={img6} alt="" className="about_zax_img"/>
+            <img src={img6} alt="" className="about_zax_img" />
           </Grid>
         </Grid>
       </Container>

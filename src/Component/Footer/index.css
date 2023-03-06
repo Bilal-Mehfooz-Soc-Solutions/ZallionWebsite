@@ -17,3 +17,10 @@
         margin-top: -80px;
     }
 }
+
+@media (max-width:500px){
+
+    #footer-resp{
+        margin-top: 20%;
+    }
+}

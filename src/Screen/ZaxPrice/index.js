@@ -33,11 +33,11 @@ const ZaxPrice = () => {
                   fontSize: "20px",
                 }}
               >
-                <b>0</b>
+                <b>$0.3342</b>
               </p>
             </Grid>
 
-            <Grid item lg={0.8} md={0.8} sm={0.8} xs={1.5}>
+            {/* <Grid item lg={0.8} md={0.8} sm={0.8} xs={1.5}>
               <img src={img4} className="zax_price_img" />
               <p
                 style={{
@@ -48,7 +48,7 @@ const ZaxPrice = () => {
               >
                 <b>0</b>
               </p>
-            </Grid>
+            </Grid> */}
 
             <Grid item lg={0.8} md={0.8} sm={0.8} xs={1.5}>
               <img src={img3} className="zax_price_img" />
@@ -59,11 +59,11 @@ const ZaxPrice = () => {
                   fontSize: "20px",
                 }}
               >
-                <b>0</b>
+                <b>273.88</b>
               </p>
             </Grid>
 
-            <Grid item lg={0.8} md={0.8} sm={0.8} xs={1.5}>
+            {/* <Grid item lg={0.8} md={0.8} sm={0.8} xs={1.5}>
               <img src={img1} className="zax_price_img" />
               <p
                 style={{
@@ -74,26 +74,18 @@ const ZaxPrice = () => {
               >
                 <b>0</b>
               </p>
-            </Grid>
+            </Grid> */}
           </Grid>
 
           <Grid container>
             <Grid item lg={5} md={6} sm={6} xs={11.7} className="zillion_aakar_text">
               <h1>What is ZILLION AAKAR XO (ZAX)?</h1>
               <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don't look even
-                slightly believable. If you are going to use
+              ZAX is a revolutionary utility token built on the Binance Smart Chain that offers a seamless transaction experience to users. It's a token that encompasses the entire crypto universe, and it's available on both DEX and CEX platforms.
               </p>
               <p>
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has roots in a piece of classical Latin literature from
-                45 BC, making it over 2000 years old. Richard McClintock, a
-                Latin professor at Hampden-Sydney College in Virginia, looked up
-                one of the more obscure Latin words, consectetur, from a Lorem
-                Ipsum passage, and going through the cites of the word in
-                classical literature, discovered the undoubtable source.
+
+              But ZAX is not just any token. It's been curated to solve multiple purposes in one go, with the primary function being paying for different kinds of transactions flawlessly. The token is not restricted to any particular domain, so it can be utilized for all sorts of online payments.
               </p>
               <br></br>
               <Button
@@ -120,11 +112,11 @@ const ZaxPrice = () => {
        <Container>
         <Grid container>
             <Grid item lg={5} md={6} sm={6.5} xs={12} className='how_does_text'>
-            <h1>How Does It Work</h1>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage </p>
+            <h1>How ZAX Works:</h1>
+            <p>ZAX operates as a digital token that grants users access to products and services within the blockchain network. Its transparent and secure functionality allows businesses to gain interest from investors, while providing discounts and the ability to incorporate various payment methods.</p>
 
             <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibu
+            ZAX's utility token status means that as transaction volume increases, holders benefit from reflections and the addition of value to the liquidity pool. By holding ZAX, users gain access to the platform and its potential for growth in high demand markets.<br></br>The ZAX token's use case is not limited to a specific industry, making it an ideal choice for businesses and investors looking to enter the blockchain market.
             </p><br></br>
             <Button
                 style={{

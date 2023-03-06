@@ -16,10 +16,7 @@ const Footer = () => {
           <Grid item lg={5} md={5} sm={6} xs={12} className="footer_logo">
             <img src={logo} alt="" />
             <p style={{ paddingTop: "20px" }}>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly
+            ZAX is a utility token that breaks through the boundaries between centralized and decentralized platforms. Join us now and become part of the finance revolution.
             </p>
             <h4 style={{ textAlign: "center", fontSize: "20px" }}>
               For Any Query Contact{" "}
@@ -43,7 +40,9 @@ const Footer = () => {
                 xs={1}
                 className="header_icon"
               >
+                <a href="https://www.facebook.com/people/Zillion-Aakar-XO/100083067863940/">
                 <img src={facebook} alt="" />
+                </a>
               </Grid>
 
               <Grid
@@ -54,9 +53,11 @@ const Footer = () => {
                 xs={1}
                 className="header_icon"
               >
+                <a href="https://coinmarketcap.com/currencies/zillion-aakar-xo/">
                 <img src={letter} alt="" />
+                </a>
               </Grid>
-
+{/* 
               <Grid
                 item
                 lg={1.3}
@@ -66,7 +67,7 @@ const Footer = () => {
                 className="header_icon"
               >
                 <img src={linkedin} alt="" />
-              </Grid>
+              </Grid> */}
 
               <Grid
                 item
@@ -76,10 +77,12 @@ const Footer = () => {
                 xs={1}
                 className="header_icon"
               >
+                <a href="https://twitter.com/ZillionXO">
                 <img src={twitter} alt="" />
+                </a>
               </Grid>
 
-              <Grid
+              {/* <Grid
                 item
                 lg={1.3}
                 md={1.5}
@@ -88,7 +91,7 @@ const Footer = () => {
                 className="header_icon"
               >
                 <img src={insta} alt="" />
-              </Grid>
+              </Grid> */}
             </Grid>
           </Grid>
         </Grid>

@@ -3,7 +3,7 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import React, { useState } from "react";
 import logo from "../../Image/logo.png";
-
+import { useEffect } from "react";
 import "./index.css";
 
 const Stack = () => {
@@ -11,7 +11,8 @@ const Stack = () => {
     document.getElementById("one_two").style.display = "block";
     document.getElementById("butn").style.display = "none";
     document.getElementById("butn2").style.display = "block";
-    document.getElementById("one_two").style.backgroundColor = "rgba(13,16,26,0.6)";
+    document.getElementById("one_two").style.backgroundColor =
+      "rgba(13,16,26,0.6)";
     document.getElementById("one_two").style.borderBottomRightRadius = "12px";
     document.getElementById("one_two").style.borderBottomLeftRadius = "12px";
   }
@@ -62,7 +63,8 @@ const Stack = () => {
     document.getElementById("buttonFour2").style.display = "block";
     document.getElementById("card_four1").style.backgroundColor =
       "rgba(13,16,26,0.6)";
-    document.getElementById("card_four1").style.borderBottomRightRadius = "12px";
+    document.getElementById("card_four1").style.borderBottomRightRadius =
+      "12px";
     document.getElementById("card_four1").style.borderBottomLeftRadius = "12px";
   };
   const btnFour2 = () => {
@@ -70,6 +72,11 @@ const Stack = () => {
     document.getElementById("buttonFour").style.display = "block";
     document.getElementById("buttonFour2").style.display = "none";
   };
+
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, []);
+
   return (
     <div>
       {/* CARD ONE */}
@@ -592,7 +599,7 @@ const Stack = () => {
             sm={5.5}
             xs={11.5}
             className="stact_card_one"
-            id='card_four'
+            id="card_four"
           >
             <Grid container>
               <Grid item lg={5} md={6} sm={5.5} xs={3.8} className="card_img">
@@ -753,16 +760,10 @@ const Stack = () => {
                       00.00%
                     </p>
                   </Grid>
-                  <Button
-             
-                    id="test"
-                  >
-                    Buy Zillion Aakkar Xo
-                  </Button>
+                  <Button id="test">Buy Zillion Aakkar Xo</Button>
 
                   <Button
                     style={{
-               
                       marginTop: "-4px",
                     }}
                     id="test"
@@ -805,7 +806,14 @@ const Stack = () => {
               className="stact_card_one"
             >
               <Grid container>
-                <Grid item lg={5} md={5.5} sm={5.5} xs={3.8} className="card_img">
+                <Grid
+                  item
+                  lg={5}
+                  md={5.5}
+                  sm={5.5}
+                  xs={3.8}
+                  className="card_img"
+                >
                   <img src={logo} alt="" />
                   <p
                     style={{
@@ -965,16 +973,10 @@ const Stack = () => {
                         00.00%
                       </p>
                     </Grid>
-                    <Button
-             
-                      id="test"
-                    >
-                      Buy Zillion Aakkar Xo
-                    </Button>
+                    <Button id="test">Buy Zillion Aakkar Xo</Button>
 
                     <Button
                       style={{
-             
                         marginTop: "-4px",
                       }}
                       id="test"
@@ -1135,16 +1137,10 @@ const Stack = () => {
                       00.00%
                     </p>
                   </Grid>
-                  <Button
-              
-                    id="test"
-                  >
-                    Buy Zillion Aakkar Xo
-                  </Button>
+                  <Button id="test">Buy Zillion Aakkar Xo</Button>
 
                   <Button
                     style={{
-                   
                       marginTop: "-4px",
                     }}
                     id="test"
@@ -1174,7 +1170,6 @@ const Stack = () => {
                   color: "white",
                   marginBottom: "20px",
                   width: "100%",
-                  
                 }}
                 id="btn_twos"
               >
@@ -1358,16 +1353,10 @@ const Stack = () => {
                       00.00%
                     </p>
                   </Grid>
-                  <Button
-            
-                    id="test"
-                  >
-                    Buy Zillion Aakkar Xo
-                  </Button>
+                  <Button id="test">Buy Zillion Aakkar Xo</Button>
 
                   <Button
                     style={{
-                  
                       marginTop: "-4px",
                     }}
                     id="test"
@@ -1398,7 +1387,7 @@ const Stack = () => {
             sm={5.5}
             xs={11.5}
             className="stact_card"
-            id='card_four_margin_top'
+            id="card_four_margin_top"
           >
             <Grid container>
               <Grid item lg={5} md={6} sm={5.5} xs={3.8} className="card_img">
@@ -1424,7 +1413,7 @@ const Stack = () => {
                 </p>
               </Grid>
               <Grid item lg={0.5} md={0.5} sm={0.5}></Grid>
-              <Grid item lg={6.4} >
+              <Grid item lg={6.4}>
                 <p style={{ color: "white", paddingTop: "15px" }}>
                   Stack And Earn &ZAX
                 </p>
@@ -1527,16 +1516,10 @@ const Stack = () => {
                     00.00%
                   </p>
                 </Grid>
-                <Button
-              
-                  id="test"
-                >
-                  Buy Zillion Aakkar Xo
-                </Button>
+                <Button id="test">Buy Zillion Aakkar Xo</Button>
 
                 <Button
                   style={{
-               
                     marginTop: "-4px",
                   }}
                   id="test"
@@ -1694,16 +1677,11 @@ const Stack = () => {
                     00.00%
                   </p>
                 </Grid>
-                <Button
-             
-                  id="test"
-                >
-                  Buy Zillion Aakkar Xo
-                </Button>
+                <Button id="test">Buy Zillion Aakkar Xo</Button>
 
                 <Button
                   style={{
-                   marginTop: "-4px",
+                    marginTop: "-4px",
                   }}
                   id="test"
                 >

@@ -6,8 +6,8 @@ const WeZax=()=>{
         <Container>
             <Grid container>
                  <Grid item lg={8} md={10} sm={10}  xs={12} className='we_zax_heading'>
-                         <h1><b>We Are Zax <br></br>ZALLION AAKAR XO<br></br>Your own Virtual Currency!</b></h1>
-                         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                         <h1><b>Welcome to the Future of Transactions with Zillion <br></br> Anchor XO (ZAX)!</b></h1>
+                         <p>ZAX is a utility token that breaks through the boundaries between centralized and decentralized platforms. Join us now and become part of the finance revolution.</p>
                  </Grid>
             </Grid>
         </Container>
